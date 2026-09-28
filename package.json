@@ -1,0 +1,18 @@
+{
+  "name": "offline-first-sync-simulator",
+  "version": "1.0.0",
+  "description": "Offline-first synchronization simulator for field data with validation, queuing, deduplication, and safe commits.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/sync.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
+  }
+}
