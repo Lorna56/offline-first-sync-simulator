@@ -4,7 +4,7 @@
   "description": "Offline-first synchronization simulator for field data with validation, queuing, deduplication, and safe commits.",
   "type": "module",
   "scripts": {
-    "dev": "tsx src/sync.ts",
+    "dev": "tsx src/index.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
